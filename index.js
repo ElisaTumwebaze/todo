@@ -9,3 +9,6 @@ app.get('/todos',(req,res)=>{
 const todos=['waking up','bathing','brushing'];
 res.send(todos);
 })
+app.get('/add-todo',(req,res)=>{
+    console.log('testing');
+})
